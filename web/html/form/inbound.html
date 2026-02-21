@@ -127,8 +127,8 @@
     {{template "form/shadowsocks"}}
 </template>
 
-<!-- tunnel -->
-<template v-if="inbound.protocol === Protocols.TUNNEL">
+<!-- dokodemo-door / tunnel -->
+<template v-if="inbound.protocol === Protocols.DOKODEMO || inbound.protocol === Protocols.TUNNEL">
     {{template "form/tunnel"}}
 </template>
 
