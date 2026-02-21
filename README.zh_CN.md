@@ -25,7 +25,7 @@
 ## 快速开始
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/lvvfa/wvi/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/lvvfa/wv/main/install.sh)
 ```
 
 完整文档请参阅 [项目Wiki](https://github.com/MHSanaei/3x-ui/wiki)。
