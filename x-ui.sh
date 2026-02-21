@@ -207,7 +207,7 @@ uninstall() {
     echo ""
     echo -e "卸载成功。\n"
     echo "如果您需要再次安装此面板，可以使用以下命令："
-    echo -e "${green}bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)${plain}"
+    echo -e "${green}bash <(curl -Ls https://raw.githubusercontent.com/lvvfa/wv/main/install.sh)${plain}"
     echo ""
     # 捕获 SIGTERM 信号
     trap delete_script SIGTERM
